@@ -1,1 +1,2 @@
-This is the deploy file
+#!/bin/bash
+echo "This is the deploy file"

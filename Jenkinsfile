@@ -14,6 +14,7 @@ pipeline{
         stage('Deploy'){
             steps{
                 echo "in deploy stage "
+                sh 'cat ./deploy.sh'
             }    
         }
     }
